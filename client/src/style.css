@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+    background-color: #282D35;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 150px;
+    padding: 30px 25px;
+}
+
+.nav--logo_text, .nav--title {
+    margin: 0;
+}
+
+.nav--logo_text {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.nav--title {
+    color: #DEEBF8;
+    font-weight: 600;
+}
+
+.nav--icon {
+    height: 50px;
+    margin-right: 7px;
+}
+
+/* 
+Challenge: Place the gray react logo in the background
+
+Don't use an `img` element, but rather set it as the
+`background-image` of the `main` element.
+
+Hint: you'll need to use the following properties:
+- background-image
+- background-repeat
+- background-position
+
+(Or the shorthand `background` property with values for all
+those other properties)
+*/
+
+main {
+    padding: 57px 27px;
+    color: white;
+}
+
+.main--title {
+    margin: 20;
+    font-size: 40px;
+    letter-spacing: -0.05em;
+}
+
+.main--facts {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--form{
+    margin: 20;
+    max-width:min-content;
+    line-height: 30px;
+}
+
+.maint {
+    width: 700px;
+    height: 150px;
+    border: 1px solid white;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+}
+
+.maint h3 {
+    margin: 20px;
+}
+
+
+.cars {
+    width: 1350px;
+    height: 150px;
+    border: 1px solid white;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+}
+
+.cars h3 {
+    margin: 20px;
+}
+
+.empcars {
+    width: 1000px;
+    height: 425px;
+    border: 1px solid white;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+}
+.empcars h3 {
+    margin: 20px;
+}
+
+.dmgbutton {
+    height: 50px;
+    width: 50px;
+    margin: 100px;
+    display: flex;
+    padding: 100;
+    margin-right: 50px;
+    margin-top: 150px;
+}
+
+.deletebutton {
+    height: 50px;
+    width: 200px;
+    display:flex;
+    padding: 100;
+    margin-top: 230px;
+    margin-right: 100px;
+    margin-left: -100px;
+}
+
+
+
+.bookings {
+    width: 1000px;
+    height: 150px;
+    border: 1px solid white;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+}
+
+.bookings h3 {
+    margin: 20px;
+}
+
+.loginButt {
+    Width:100px;
+    height: 30px;
+    margin-right: 100px;
+}
+
+.carButt {
+    Width: 100px;
+    height: 30px;
+}
+
+
+.mainbutts{
+    max-width: 50px;
+    max-height: 100px;
+    margin-right: 1000px;
+}
